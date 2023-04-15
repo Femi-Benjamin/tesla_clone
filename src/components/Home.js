@@ -5,13 +5,6 @@ import Section from "./Section";
 function Home() {
   return (
     <Container>
-     <Section
-        title="Model X"
-        description="Order Online for Touchless Delivery Services"
-        backgroundImg="model-x.jpg"
-        leftBtnText="Custom Order"
-        rightBtnText="Existing Inventory"
-      />
       <Section
         title="Model S"
         description="Order Online for Touchless Delivery Services"
@@ -30,6 +23,13 @@ function Home() {
         title="Model 3"
         description="Order Online for Touchless Delivery Services"
         backgroundImg="model-3.jpg"
+        leftBtnText="Custom Order"
+        rightBtnText="Existing Inventory"
+      />
+       <Section
+        title="Model X"
+        description="Order Online for Touchless Delivery Services"
+        backgroundImg="model-x.jpg"
         leftBtnText="Custom Order"
         rightBtnText="Existing Inventory"
       />
