@@ -12,9 +12,9 @@ function Header() {
   // console.log(cars);
   return (
     <Container>
-      <a>
+      <buttona>
         <img src="logo.svg" alt="" />
-      </a>
+      </buttona>
 
       <Menu>
         {cars && cars.map((car, index) => (
